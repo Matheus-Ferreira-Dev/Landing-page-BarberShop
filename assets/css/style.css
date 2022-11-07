@@ -127,12 +127,12 @@ Home - banner
     font-weight: 400;
     margin-top: 2rem;
     transition: .3s ease-in-out;
+    border-radius: 50px;
 }
 
 .btn:hover {
     transform: scale(1.1);
     background: linear-gradient(300deg, var(--primary), var(--secondary));
-    font-size: 2.1rem;
 }
 
 .home .banner img {
@@ -145,8 +145,7 @@ Home - banner
 About - seção sobre
 ******************/
 .about {
-    height: 100vh;
-    background-color: var(--primary);
+    background: linear-gradient(300deg, var(--primary), var(--secondary))
 }
 
 .about .container {
@@ -160,6 +159,8 @@ About - seção sobre
     background-position: center;
     background-repeat: no-repeat;
     padding: 3rem;
+    position: relative;
+    top: -60px;
 }
 
 .about .timing .overlay {
@@ -210,10 +211,6 @@ About - seção sobre
     font-weight: 400;
 }
 
-.about .experience {
-    width: 66%;
-}
-
 .about .timing p {
     display: block;
     color: #fff;
@@ -223,4 +220,42 @@ About - seção sobre
 .about .timing .overlay img {
     width: 20px;
     filter: brightness(100);
+}
+
+.about .experience {
+    width: 66%;
+    color: #fff;
+    margin-left: 8%;
+    margin-top: 10rem;
+}
+
+.about .experience span {
+    font-size: 2.0rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+  
+.about .experience h2 {
+    font-weight: 500;
+    font-size: 6.2rem;
+}
+
+.about .experience h2:after {
+    display: block;
+    content: "";
+    width: 100px;
+    height: 4px;
+    background-color: #fff;
+    margin: 2rem 0;
+}
+
+.about .experience p {
+    font-size: 1.8rem;
+    font-weight: 300;
+    margin-bottom: 2rem;
+}
+
+.text-content {
+    display: flex;
+    justify-content: space-around;
 }
