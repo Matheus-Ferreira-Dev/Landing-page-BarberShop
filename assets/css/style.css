@@ -19,7 +19,9 @@ html {
     font-size: 62.5%;
 }
 
-
+/**************** 
+Home - header
+******************/
 .home {
     background: url('../images/bg-home.jpg');
     background-position: center;
@@ -66,4 +68,12 @@ html {
 
 .logo {
     margin: 0 3rem;
+}
+
+/**************** 
+Home - banner
+******************/
+/* Conteúdo da section home */
+.home .banner {
+    color: #fff;
 }
