@@ -234,7 +234,7 @@ About - seção sobre
     font-weight: 500;
     text-transform: uppercase;
 }
-  
+
 .about .experience h2 {
     font-weight: 500;
     font-size: 6.2rem;
@@ -258,4 +258,53 @@ About - seção sobre
 .text-content {
     display: flex;
     justify-content: space-around;
+}
+
+/**************** 
+Services - seção serviços
+******************/
+.services {
+    padding: 10rem ;
+    text-align: center;
+    color: var(--black);
+    background-color: #db9d4766;
+}
+
+.services h2 {
+    font-size: 6.2rem;
+    font-weight: 500;
+}
+
+.services .border {
+    width: 250px;
+    filter: brightness(0);
+}
+
+.services .cards {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.services .cards img {
+    filter: brightness(0);
+}
+
+.services .cards .card {
+    border: 3px solid var(--primary);
+    padding: 5rem 4rem;
+    margin: 3rem;
+}
+
+.services .cards .card h4 {
+    font-size: 2.2rem;
+    font-weight: 500;
+    color: var(--primary);
+}
+
+.services .cards .card p {
+    font-size: 1.6rem;
+    font-weight: 300;
+    margin-top: 2rem;
+    line-height: 25px;
 }
