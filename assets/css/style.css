@@ -265,19 +265,22 @@ Services - seção serviços
 ******************/
 .services {
     padding: 10rem;
-    text-align: center;
     color: var(--black);
     background-color: #db9d4714;
+    text-align: center;
 }
 
 .services h2 {
     font-size: 6.2rem;
     font-weight: 500;
+    color: #090809;
+    text-align: center;
 }
 
 .services .border {
     width: 250px;
     filter: brightness(0);
+    text-align: center;
 }
 
 .services .cards {
@@ -313,5 +316,94 @@ Services - seção serviços
 Appoitment - seção de agendamento
 ******************/
 .appointment {
-    background: linear-gradient(200deg, var(--primary), var(--secondary))
+    padding: 10rem 0;
+    background: linear-gradient(200deg, var(--primary), var(--secondary));
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    position: relative;
+}
+
+.appointment h2 {
+    color: #fff;
+    font-size: 6.2rem;
+    font-weight: 500;
+}
+
+.chair img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 250px;
+}
+
+.appointment .headline {
+    filter: brightness(100);
+    width: 200px;
+    margin-top: 1rem;
+}
+
+.appointment .personal-data {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.appointment .flex-wrapper {
+    width: 100%;
+    margin-right: 5rem;
+}
+
+.appointment .flex-wrapper:last-of-type {
+    margin-right: 0;
+}
+
+.appointment label {
+    display: block;
+    color: #fff;
+    font-size: 1.6rem;
+    text-align: left;
+    margin-bottom: .2rem;
+}
+
+.appointment form {
+    margin-top: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.appointment .personal-data input,
+.appointment .personal-data select,
+.appointment textarea {
+    padding: 1rem;
+    outline: none;
+    border: none;
+    width: 100%;
+    position: relative;
+    border-radius: 5px;
+}
+
+.appointment textarea {
+    height: 100px;
+}
+
+.appointment button {
+    color: #fff;
+    background-color: var(--primary);
+    font-size: 1.8rem;
+    padding: 1rem 3rem;
+    border: none;
+    width: 130px;
+    margin-top: 1.5rem;
+    cursor: pointer;
+    transition: .3s all;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.appointment button:hover {
+    background-color: var(--primary);
+    transform: scale(1.1);
 }
