@@ -46,7 +46,11 @@ Home - header
 }
 
 .header .menu li {
-    margin: 0 1rem;
+    /* margin: 0 1rem; */
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .header .menu li a {
@@ -76,4 +80,36 @@ Home - banner
 /* Conteúdo da section home */
 .home .banner {
     color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    gap: 1rem;
+}
+
+
+.home .banner h1 {
+    font-size: 6.4rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.home .banner p:first-of-type {
+    display: block;
+    color: var(--primary);
+    font-size: 2.4rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.home .banner p {
+    font-size: 2.2rem;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.home .banner img {
+    width: 50px;
 }
