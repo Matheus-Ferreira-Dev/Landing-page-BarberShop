@@ -28,6 +28,7 @@ Home - header
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
+    position: relative;
 }
 
 .header {
@@ -85,13 +86,13 @@ Home - banner
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 250px;
-    gap: 1rem;
+    gap: .5rem;
+    height: 50vh;
 }
 
 
 .home .banner h1 {
-    font-size: 6.4rem;
+    font-size: 8rem;
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -102,11 +103,12 @@ Home - banner
     font-size: 2.4rem;
     font-weight: 600;
     text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 .home .banner p {
     font-size: 2.2rem;
-    color: #fff;
+    color: var(--secondary);
     text-transform: uppercase;
 }
 
