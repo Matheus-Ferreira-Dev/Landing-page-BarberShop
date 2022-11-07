@@ -117,9 +117,28 @@ Home - banner
     text-transform: uppercase;
 }
 
+.btn {
+    display: inline-block;
+    padding: 2rem 2.5rem;
+    background-color: var(--primary);
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: #fff;
+    font-weight: 400;
+    margin-top: 2rem;
+    transition: .3s ease-in-out;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    background: linear-gradient(300deg, var(--primary), var(--secondary));
+    font-size: 2.1rem;
+}
+
 .home .banner img {
     width: 50px;
     filter: brightness(100);
+    margin-top: 2rem;
 }
 
 /**************** 
