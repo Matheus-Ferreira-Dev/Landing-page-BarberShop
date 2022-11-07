@@ -7,7 +7,6 @@
     --tertiary: #43AA8B;
 }
 
-
 * {
     margin: 0;
     padding: 0;
@@ -17,6 +16,11 @@
 
 html {
     font-size: 62.5%;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1170px;
 }
 
 /**************** 
@@ -115,5 +119,89 @@ Home - banner
 
 .home .banner img {
     width: 50px;
+    filter: brightness(100);
+}
+
+/**************** 
+About - seção sobre
+******************/
+.about {
+    height: 100vh;
+    background-color: var(--primary);
+}
+
+.about .container {
+    display: flex;
+}
+
+.about .timing {
+    width: 33%;
+    background-image: url('../images/brush-big.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 3rem;
+}
+
+.about .timing .overlay {
+    background: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    padding: 3rem 2rem;
+}
+
+.about .timing .overlay .scissor {
+    filter: brightness(100);
+    width: 50px;
+}
+
+.about .timing .overlay h3 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: #F13F3F;
+    border-bottom: 3px solid var(--primary);
+    width: fit-content;
+    margin: 0 auto 3rem auto;
+}
+
+.about .timing .text {
+    margin: 1rem 0;
+}
+
+.about .timing .text:after {
+    content: "•";
+    display: block;
+    color: #F13F3F;
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+.about .timing .text:last-of-type:after {
+    content: '|';
+}
+
+.about .timing .text h4 {
+    color: rgb(248, 248, 248);
+    font-weight: 500;
+    font-size: 1.6rem;
+}
+
+.about .timing .text p {
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.about .experience {
+    width: 66%;
+}
+
+.about .timing p {
+    display: block;
+    color: #fff;
+    font-size: 1.4rem;
+}
+
+.about .timing .overlay img {
+    width: 20px;
     filter: brightness(100);
 }
