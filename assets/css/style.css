@@ -264,10 +264,10 @@ About - seção sobre
 Services - seção serviços
 ******************/
 .services {
-    padding: 10rem ;
+    padding: 10rem;
     text-align: center;
     color: var(--black);
-    background-color: #db9d4766;
+    background-color: #db9d4714;
 }
 
 .services h2 {
@@ -307,4 +307,11 @@ Services - seção serviços
     font-weight: 300;
     margin-top: 2rem;
     line-height: 25px;
+}
+
+/**************** 
+Appoitment - seção de agendamento
+******************/
+.appointment {
+    background: linear-gradient(200deg, var(--primary), var(--secondary))
 }
