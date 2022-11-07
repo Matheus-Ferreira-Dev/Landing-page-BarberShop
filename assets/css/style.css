@@ -73,6 +73,7 @@ Home - header
 
 .logo {
     margin: 0 3rem;
+    filter: brightness(100);
 }
 
 /**************** 
@@ -114,4 +115,5 @@ Home - banner
 
 .home .banner img {
     width: 50px;
+    filter: brightness(100);
 }
