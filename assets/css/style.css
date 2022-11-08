@@ -352,7 +352,7 @@ Appoitment - seção de agendamento
 
 .appointment .flex-wrapper {
     width: 100%;
-    margin-right: 5rem;
+    margin-right: 3rem;
 }
 
 .appointment .flex-wrapper:last-of-type {
@@ -406,4 +406,42 @@ Appoitment - seção de agendamento
 .appointment button:hover {
     background-color: var(--primary);
     transform: scale(1.1);
+}
+
+/**************** 
+Gallery - seção de galeria
+******************/
+.gallery {
+     padding: 10rem 0;
+     background-color: #f13f3f49;
+     text-align: center;
+}
+
+.gallery h2 {
+    color: #090809;
+    font-size: 6.2rem;
+    font-weight: 500;
+}
+
+.gallery .head-line img {
+    filter: brightness(0);
+    width: 200px;
+}
+
+.gallery-wrapper {
+    margin: 5rem auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100vh;
+    width: 900px;
+}
+
+.gallery-wrapper .img-wrapper {
+    border: 5px solid var(--primary);
+    width: 33%;
+}
+
+.gallery-wrapper .img-wrapper img {
+    width: 100%;
 }
