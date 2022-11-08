@@ -445,3 +445,66 @@ Gallery - seção de galeria
 .gallery-wrapper .img-wrapper img {
     width: 100%;
 }
+
+/**************** 
+Location - seção de localização
+******************/
+.location {
+    padding: 10rem 0;
+    background: url('../images/bg-location.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.location img {
+    /* margin-right: 1.5rem; */
+    filter: brightness(100);
+}
+
+.location .heading {
+    background-color: #090809;
+    padding: 4rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.location .heading .content-info {
+    display: flex;
+    color: #fff;
+    align-items: center;
+}
+
+.location .content-info .icon {
+    margin-right: 1rem;
+    border: 1px solid var(--primary);
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height:50px;
+    border-radius: 100%;
+}
+
+.location .heading .content-info .text span {
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.location .heading .content-info .text span:first-child {
+    color: var(--primary);
+}
+
+.location .heading .content-info .text span:last-child {
+    color: #fff;
+}
+
+.location .map {
+    width: 100%;
+}
+
+.location .map iframe {
+    width: 100%;
+}
