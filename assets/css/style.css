@@ -31,6 +31,7 @@ Home - header
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     height: 100vh;
     position: relative;
 }
@@ -507,4 +508,16 @@ Location - seção de localização
 
 .location .map iframe {
     width: 100%;
+}
+
+/**************** 
+Footer - rodapé
+******************/
+.footer {
+    background-color: var(--black);
+    color: #fff;
+    padding: 4rem;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 400;
 }
